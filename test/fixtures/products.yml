@@ -1,10 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+  title: Dana 60 Rear
+  description: The Dana 60 Rear has many advantages over the stock Ford 9 in
+
+  image_url: Dana.jpg
+  price: 2650.00
 
 two:
   title: MyString
