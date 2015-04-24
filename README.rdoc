@@ -3,19 +3,17 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+* Ruby version: 2.1.2 p95
+* Rails version: 4.2.1
 
-* Configuration
+* NOTA BENE: The config/secrets.yml was ignored in order to protect the secret tokens and keys. In order to run this app, you'll need to create a secrets.yml file, then run this command <tt>rake secrets</tt> to generate the secret token to
+add to your own secrets.yml file
 
-* Database creation
+* Uses SQLite db in test and development, Postgress in production (via the Postgres gem)
 
-* Database initialization
-
-* How to run the test suite
+* How to run the test suite: Run the command <tt>rake test</tt> to test the controllers, and for unit testing, run <tt>rake test:models</tt>
 
 * Services (job queues, cache servers, search engines, etc.)
 
@@ -23,6 +21,5 @@ Things you may want to cover:
 
 * ...
 
+* Contact Jacqueline S. Homan at: jacquelinehoman7@gmail.com
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
