@@ -8,8 +8,7 @@ application up and running.
 * Ruby version: 2.1.2 p95
 * Rails version: 4.2.1
 
-* NOTA BENE: The config/secrets.yml was ignored in order to protect the secret tokens and keys. In order to run this app, you'll need to create a secrets.yml file, then run this command <tt>rake secrets</tt> to generate the secret token to
-add to your own secrets.yml file
+* NOTA BENE: The config/secrets.yml was ignored in order to protect the secret tokens and keys. In order to run this app, you'll need to create a secrets.yml file, then run this command <tt>rake secrets</tt> to generate the secret token to add to your own secrets.yml file
 
 * Uses SQLite db in test and development, Postgress in production (via the Postgres gem)
 
